@@ -35,7 +35,6 @@ namespace pt9
             TMX_MAP = new TmxMap("/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/Content/grassland_map_1.tmx");
             TILE_SET = Content.Load<Texture2D>(TMX_MAP.Tilesets[0].Name.ToString());
             tile_importer.load(TMX_MAP, TILE_SET);
-            tile_importer.process_tile_map();
         }
 
         protected override void Update(GameTime gameTime)
@@ -53,6 +52,7 @@ namespace pt9
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            tile_importer.process_tile_map();
             _spriteBatch.Begin();
             foreach (tile_importer.tile_data data in tile_importer.TILE_DATA_LIST)
             {

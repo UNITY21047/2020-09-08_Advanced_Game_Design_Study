@@ -63,7 +63,7 @@ namespace pt9
                 {
                     int TILE_FRAME = GID - 1;
                     int COLUMN = TILE_FRAME % TILE_SET_TILES_WIDE;
-                    int ROW = (int)Math.Floor((double)TILE_FRAME / (double)TILE_SET_TILES_HIGH);
+                    int ROW = (int)Math.Floor((double)TILE_FRAME / (double)TILE_SET_TILES_WIDE);
 
                     float X = (CURRENT_LAYER_COUNT % TMX_MAP.Width) * TMX_MAP.TileWidth;
                     float Y = (float)Math.Floor(CURRENT_LAYER_COUNT / (double)TMX_MAP.Width * TMX_MAP.TileHeight);
