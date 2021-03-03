@@ -1,0 +1,5 @@
+the tile_data struct for the list of tile graphics, postion, size
+
+input data will sent to tile_map_processing
+
+tile_map_processing will take in the input and return a data list of tiles
