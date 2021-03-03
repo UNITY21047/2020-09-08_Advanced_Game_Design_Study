@@ -1,0 +1,30 @@
+Row 0: Facing Down
+Row 1: Facing Right
+Row 2: Facing Left
+Row 3: Facing Up
+
+Rows 4-7 are another set
+
+Column 0: Stand
+Column 1-2: Walk (use Stand between)
+Column 3: Carry (Stand)
+Column 4-5: Carry (Walk)
+Column: 6-7: Run (use Stand between)
+Column 8-9: Jump
+Column 10-11: Fall
+Column 12: Nod
+Column 13-14: Shake
+Column 15: Blink / Slain
+--
+Column 0-1: Wave
+Column 2: Sit
+Column 3: Sit Blink
+Column 4: Battle Stance
+Column 5: Hurt
+Column 6: Sneak
+Column 7-8: Sword Attack
+Column 9-10: Ranged Attack
+Column 11-12: Chant
+Column 13: Shocked
+Column 14: Sad
+Column 15: Happy
