@@ -196,26 +196,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\werty\\.nuget\\packages\\": {}
+    "/home/pup/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\werty\\Downloads\\assets\\projects\\2020-09-08_Advanced_Game_Design_Study\\pt9\\pt9.csproj",
+      "projectUniqueName": "/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/pt9.csproj",
       "projectName": "pt9",
-      "projectPath": "C:\\Users\\werty\\Downloads\\assets\\projects\\2020-09-08_Advanced_Game_Design_Study\\pt9\\pt9.csproj",
-      "packagesPath": "C:\\Users\\werty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\werty\\Downloads\\assets\\projects\\2020-09-08_Advanced_Game_Design_Study\\pt9\\obj\\",
+      "projectPath": "/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/pt9.csproj",
+      "packagesPath": "/home/pup/.nuget/packages/",
+      "outputPath": "/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\werty\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/pup/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -255,22 +253,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\werty\\Downloads\\assets\\programs\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "grassland_map_1.tmx",
+    "activeFile": "grassland.tsx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
@@ -16,7 +16,7 @@
             "selectedLayer": 13,
             "viewCenter": {
                 "x": 1424,
-                "y": 1536
+                "y": 1692
             }
         }
     },
@@ -29,8 +29,8 @@
     ],
     "project": "tile_map_grassland.tiled-project",
     "recentFiles": [
-        "grassland.tsx",
-        "grassland_map_1.tmx"
+        "grassland_map_1.tmx",
+        "grassland.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
