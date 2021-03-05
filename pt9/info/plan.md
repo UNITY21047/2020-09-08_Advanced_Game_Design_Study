@@ -50,22 +50,25 @@ flowchart TD
     end
     
     subgraph tile structure
-    tile_importer
+    tile_map_importer
     tile_manager
-    struct_tile_texture_dataset
-    tile_manager <-->|static| tile_importer
-    tile_importer -->|static| struct_tile_texture_dataset
-    struct_tile_texture_dataset -->|class| tile_manager
+    tile_layer_dataset
+    tile_map_importer -->|static| tile_layer_dataset
+    tile_layer_dataset <-->|class| tile_manager
+    end
+
+    subgraph json_map_dataset
+    maps.json
+    tile_manager <-->|read and write| maps.json
     end
 
     subgraph entity texture import structure
     texture_importer
     texture_manager
     texture_dataset
-    texture_manager <-->|static| texture_importer
-    texture_importer -->|static| texture_dataset
-    texture_dataset -->|static| texture_manager
-    texture_manager -->|interface| character
+    texture_importer <-->|class| texture_dataset
+    texture_dataset <-->|class| texture_manager
+    texture_manager -->|static| character
     end
 
     subgraph tile objects structure

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/pt9.csproj": {}
+    "C:\\Users\\werty\\Downloads\\assets\\projects\\2020-09-08_Advanced_Game_Design_Study\\pt9\\pt9.csproj": {}
   },
   "projects": {
-    "/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/pt9.csproj": {
+    "C:\\Users\\werty\\Downloads\\assets\\projects\\2020-09-08_Advanced_Game_Design_Study\\pt9\\pt9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/pt9.csproj",
+        "projectUniqueName": "C:\\Users\\werty\\Downloads\\assets\\projects\\2020-09-08_Advanced_Game_Design_Study\\pt9\\pt9.csproj",
         "projectName": "pt9",
-        "projectPath": "/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/pt9.csproj",
-        "packagesPath": "/home/pup/.nuget/packages/",
-        "outputPath": "/media/pup/Storage/assets/projects/2020-09-08_Advanced_Game_Design_Study/pt9/obj/",
+        "projectPath": "C:\\Users\\werty\\Downloads\\assets\\projects\\2020-09-08_Advanced_Game_Design_Study\\pt9\\pt9.csproj",
+        "packagesPath": "C:\\Users\\werty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\werty\\Downloads\\assets\\projects\\2020-09-08_Advanced_Game_Design_Study\\pt9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/pup/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\werty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +42,18 @@
               "target": "Package",
               "version": "[3.8.0.1641, )"
             },
+            "MonoGame.Extended": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "MonoGame.Extended.Content.Pipeline": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "MonoGame.Extended.Tiled": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
               "version": "[3.8.0.1641, )"
@@ -59,12 +73,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\werty\\Downloads\\assets\\programs\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

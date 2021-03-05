@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="128" tileheight="128" infinite="0" nextlayerid="22" nextobjectid="4">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="128" tileheight="128" infinite="0" nextlayerid="25" nextobjectid="4">
  <tileset firstgid="1" source="grassland.tsx"/>
  <layer id="1" name="map_grass" width="25" height="25" locked="1">
   <data encoding="csv">
