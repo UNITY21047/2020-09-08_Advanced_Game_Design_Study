@@ -13,7 +13,6 @@ namespace pt9
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private TiledMapRenderer TILED_MAP_RENDER;
-        private tile_map_importer TILE_MAP_IMPORTER;
 
         public main()
         {
