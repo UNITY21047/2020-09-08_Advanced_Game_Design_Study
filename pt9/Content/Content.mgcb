@@ -3,7 +3,7 @@
 
 /outputDir:bin
 /intermediateDir:obj
-/platform:DesktopGL
+/platform:NativeClient
 /config:
 /profile:Reach
 /compress:False
@@ -13,26 +13,4 @@
 /reference:../../../../../../../../home/pup/.nuget/packages/monogame.extended.content.pipeline/3.8.0/tools/MonoGame.Extended.Content.Pipeline.dll
 
 #---------------------------------- Content ---------------------------------#
-
-#begin maps/grassland_map_1.tmx
-/importer:TiledMapImporter
-/processor:TiledMapProcessor
-/build:maps/grassland_map_1.tmx
-
-#begin maps/grassland.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:maps/grassland.png
-
-#begin maps/grassland.tsx
-/importer:TiledMapTilesetImporter
-/processor:TiledMapTilesetProcessor
-/build:maps/grassland.tsx
 
